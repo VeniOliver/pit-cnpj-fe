@@ -1,27 +1,41 @@
-# PitFrontend
+# pit-cnpj-fe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+Front-End de API para consultar dados de CNPJ (Cadastro Nacional da Pessoa Jurídica) diretamente da Receita Federal.
 
-## Development server
+Essa API é resultado do PIT Atividade da disciplina Projeto Integrador Transdisciplinar em Engenharia de Software II do curso de Bacharelado em Engenharia de Software da Universidade Cruzeiro do Sul.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Um demonstração com implementação dos serviços dessa API está disponível [aqui](https://pit-cnpj.venith.com.br)
 
-## Code scaffolding
+## Dados do aluno
+- **Nome**: VENILSON PEREIRA DE OLIVEIRA
+- **RGM**: 31237444
+- **Semestre**: 2024.2
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
+
+- **Consultar CNPJ**: Acesse informações públicas sobre uma empresa fornecendo seu número de CNPJ.
+- **Integração com a Receita Federal do Brasil**: As consultas são realizadas diretamente no site da Receita Federal do Brasil.
+- **Retorno do captcha para o usuário**: A API retornará o captcha do site da Receita Federal do Brasil para o usuário resolvê-lo.
+
+## Servidor de desenvolvimento
+
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Acesse `http://localhost:4200/`. A aplicação será recarregada automaticamente sempre que você modificar algum arquivo de origem.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para gerar o build do projeto. Os arquivos de build serão armazenados no diretório `dist/`.
 
-## Running unit tests
+## Mais ajuda
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para obter mais ajuda sobre o Angular CLI, utilize `ng help` ou confira a [Visão Geral e Referência de Comandos do Angular CLI](https://angular.io/cli).
 
-## Running end-to-end tests
+## Licença
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-## Further help
+A Licença MIT permite que qualquer pessoa faça praticamente qualquer coisa com o código, incluindo copiá-lo, modificá-lo, distribuí-lo e usá-lo em projetos privados, desde que forneçam o aviso de copyright e a renúncia de responsabilidade da licença em todas as cópias ou partes substanciais do software.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para mais detalhes sobre a Licença MIT, consulte o [site oficial](https://opensource.org/licenses/MIT).
+
+
+
