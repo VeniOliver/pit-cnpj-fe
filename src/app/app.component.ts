@@ -43,7 +43,7 @@ export class AppComponent {
   constructor(public http: HttpService, public snackBar: MatSnackBar) {
   }
 
-  find(): any {
+  public find(): any {
     this.response = null
     if (!this.cnpj.value || this.cnpj.value == '') return this.snackBar.open('Por favor, informe um CNPJ.', 'Fechar', { duration: 10000 })
     this.http.get<any[]>(`cnpj/${this.cnpj.value}`).subscribe({
