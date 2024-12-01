@@ -13,9 +13,28 @@ Um demonstração com implementação dos serviços dessa API está disponível 
 
 ## Funcionalidades
 
-- **Consultar CNPJ**: Acesse informações públicas sobre uma empresa fornecendo seu número de CNPJ.
-- **Integração com a Receita Federal do Brasil**: As consultas são realizadas diretamente no site da Receita Federal do Brasil.
-- **Retorno do captcha para o usuário**: A API retornará o captcha do site da Receita Federal do Brasil para o usuário resolvê-lo.
+1. **Consultar CNPJ**:
+   - A API permite acessar informações públicas sobre uma empresa fornecendo seu número de CNPJ.
+
+2. **Integração com a Receita Federal do Brasil**:
+   - As consultas são realizadas diretamente no site oficial da Receita Federal, garantindo dados confiáveis e atualizados.
+
+3. **Retorno do Captcha para o Usuário**:
+   - A API retorna o captcha exigido pela Receita Federal para que o usuário o resolva e prossiga com a consulta.
+
+4. **Restrição de Acesso por API Key**:
+   - O acesso à API é restrito e controlado por meio de chaves de autenticação (**API Keys**).
+   - **Como funciona**:
+     - O cliente deve enviar a chave no cabeçalho da requisição:
+       ```http
+       Authorization: Bearer <x-api-key>
+       ```
+     - A API valida a chave antes de processar qualquer operação.
+
+5. **Suporte a CORS**:
+   - A API possui configurações de **Cross-Origin Resource Sharing (CORS)**, controlando o acesso entre domínios.
+   - **Configuração**:
+     - Apenas domínios autorizados podem consumir os endpoints da API, reforçando a segurança contra acessos não autorizados.
 
 ## Servidor de desenvolvimento
 
