@@ -6,10 +6,19 @@ Essa API é resultado do PIT Atividade da disciplina Projeto Integrador Transdis
 
 Um demonstração com implementação dos serviços dessa API está disponível [aqui](https://pit-cnpj.venith.com.br)
 
+O Back-end dessa solução está disponível [aqui](https://github.com/VeniOliver/pit-cnpj-be)
+
+A documentação está disponível [aqui](https://github.com/VeniOliver/pit-cnpj-be/tree/735d75d4ce6fa588b14e0a6ed08f5c967c49eafa/docs)
+
 ## Dados do aluno
 - **Nome**: VENILSON PEREIRA DE OLIVEIRA
 - **RGM**: 31237444
 - **Semestre**: 2024.2
+
+## Vídeo de demonstração
+
+[![Demonstração](https://img.youtube.com/vi/fy1dzJDhMRo/0.jpg)](https://www.youtube.com/watch?v=fy1dzJDhMRo)
+
 
 ## Funcionalidades
 
